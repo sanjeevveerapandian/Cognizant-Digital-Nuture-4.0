@@ -6,10 +6,10 @@ public class Main {
 
         // Using recursion
         double futureValueRecursive = FinancialForecast.predictFutureValue(presentValue, annualRate, years);
-        System.out.printf("📈 Recursive - Future value after %d years: ₹%.2f%n", years, futureValueRecursive);
+        System.out.printf("Recursive - Future value after %d years: ₹%.2f%n", years, futureValueRecursive);
 
         // Using iteration
         double futureValueIterative = FinancialForecast.predictFutureValueIterative(presentValue, annualRate, years);
-        System.out.printf("⚡ Iterative - Future value after %d years: ₹%.2f%n", years, futureValueIterative);
+        System.out.printf(" Iterative - Future value after %d years: ₹%.2f%n", years, futureValueIterative);
     }
 }

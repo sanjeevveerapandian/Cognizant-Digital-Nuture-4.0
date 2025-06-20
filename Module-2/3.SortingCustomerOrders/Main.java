@@ -8,17 +8,17 @@ public class Main {
             new Order(105, "Neha", 3000.00)
         };
 
-        System.out.println("🔹 Original Orders:");
+        System.out.println("Original Orders:");
         OrderSorter.display(orders);
 
         // Bubble Sort
-        System.out.println("\n🔸 Orders Sorted by Bubble Sort:");
+        System.out.println("\n Orders Sorted by Bubble Sort:");
         Order[] bubbleSorted = orders.clone();
         OrderSorter.bubbleSort(bubbleSorted);
         OrderSorter.display(bubbleSorted);
 
         // Quick Sort
-        System.out.println("\n🔸 Orders Sorted by Quick Sort:");
+        System.out.println("\n Orders Sorted by Quick Sort:");
         Order[] quickSorted = orders.clone();
         OrderSorter.quickSort(quickSorted, 0, quickSorted.length - 1);
         OrderSorter.display(quickSorted);

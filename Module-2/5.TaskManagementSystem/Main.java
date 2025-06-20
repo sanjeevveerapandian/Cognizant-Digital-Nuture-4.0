@@ -8,11 +8,11 @@ public class Main {
 
         manager.listTasks();
 
-        System.out.println("\n🔍 Searching for Task ID 2:");
+        System.out.println("\n Searching for Task ID 2:");
         Task result = manager.searchTask(2);
         System.out.println(result != null ? result : "Task not found");
 
-        System.out.println("\n🗑️ Deleting Task ID 2...");
+        System.out.println("\n Deleting Task ID 2...");
         manager.deleteTask(2);
 
         manager.listTasks();

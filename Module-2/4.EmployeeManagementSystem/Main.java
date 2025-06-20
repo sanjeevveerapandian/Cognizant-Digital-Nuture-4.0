@@ -8,11 +8,11 @@ public class Main {
 
         manager.listEmployees();
 
-        System.out.println("\n🔍 Searching for ID 2:");
+        System.out.println("\n Searching for ID 2:");
         Employee found = manager.searchById(2);
         System.out.println(found != null ? found : "Not Found");
 
-        System.out.println("\n🗑️ Deleting ID 2...");
+        System.out.println("\n Deleting ID 2...");
         manager.deleteById(2);
 
         manager.listEmployees();

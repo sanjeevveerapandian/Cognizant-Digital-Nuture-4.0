@@ -12,11 +12,11 @@ public class Main {
 
         library.listBooks();
 
-        System.out.println("\n🔍 Linear Search for 'Effective Java':");
+        System.out.println("\n Linear Search for 'Effective Java':");
         Book linearResult = library.linearSearchByTitle("Effective Java");
         System.out.println(linearResult != null ? linearResult : "Book not found");
 
-        System.out.println("\n🔍 Binary Search for 'Effective Java':");
+        System.out.println("\n Binary Search for 'Effective Java':");
         Book binaryResult = library.binarySearchByTitle("Effective Java");
         System.out.println(binaryResult != null ? binaryResult : "Book not found");
     }
